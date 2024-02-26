@@ -1,13 +1,32 @@
-# Sample Hardhat Project
+# MAINNET FORKING
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Interacted with 2 UNISWAP FUNCTIONS
 
-Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+function swapTokensForExactTokens(
+        uint amountOut,
+        uint amountInMax,
+        address[] calldata path,
+        address to,
+        uint deadline
+    ) external returns (uint[] memory amounts);
+
+    function addLiquidity(
+        address tokenA,
+        address tokenB,
+        uint amountADesired,
+        uint amountBDesired,
+        uint amountAMin,
+        uint amountBMin,
+        address to,
+        uint deadline
+    ) external returns (uint amountA, uint amountB, uint liquidity);
+
 ```
+
+Results of INTERRACTION CAN BE FOUND IN THE *assets* FOLDER
+
+![alt text](assets/swapTokensForExactTokens.png)
+
+![alt text](assets/swapTokensForExactTokens.png)
