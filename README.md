@@ -27,6 +27,7 @@ function swapTokensForExactTokens(
 
 Results of INTERRACTION CAN BE FOUND IN THE *assets* FOLDER
 
-![alt text](assets/swapTokensForExactTokens.png)
+![alt text](assets/addLiquidity.png)
+
 
 ![alt text](assets/swapTokensForExactTokens.png)
